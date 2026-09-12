@@ -75,11 +75,11 @@ rotas de consulta não devem manter uma segunda explicação divergente.
 
 ## Modelo de conteúdo reutilizável
 
-- [ ] Criar uma fonte de conteúdo estruturada para páginas, blocos de leitura, perguntas,
+- [x] Criar uma fonte de conteúdo estruturada para páginas, blocos de leitura, perguntas,
   cards de atenção, checklists e tabelas de trade-off.
 - [ ] Decidir e configurar o formato editorial: MDX para textos longos e TypeScript/JSON
   para conteúdo repetível como glossário, trilhas e trade-offs.
-- [ ] Criar componentes reutilizáveis:
+- [x] Criar componentes reutilizáveis:
   - `PageHeader`: contexto, título e resumo da página.
   - `Callout`: conceito, dica, atenção e regra.
   - `QuestionList`: perguntas para debate em equipe.
