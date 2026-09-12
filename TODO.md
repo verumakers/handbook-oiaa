@@ -301,24 +301,24 @@ Ensinar que resultado não é apenas um número: é evidência para decidir o pr
 
 ## Página: Registrar e entregar
 
-- [ ] Criar uma explicação prática de relatório: hipótese, configuração, resultados,
+- [x] Criar uma explicação prática de relatório: hipótese, configuração, resultados,
   erros, decisão e justificativa final.
-- [ ] Criar tabela de diário copiável:
+- [x] Criar tabela de diário copiável:
 
   | Hipótese | Alteração | Resultado | O que a matriz mostrou | Próximo teste |
   | --- | --- | --- | --- |
   | | | | | |
 
-- [ ] Mostrar diferença entre justificativa genérica e justificativa baseada em evidência,
+- [x] Mostrar diferença entre justificativa genérica e justificativa baseada em evidência,
   sem usar resultados dos desafios.
-- [ ] Mapear as perguntas de relatório realmente cobradas nos notebooks para conteúdos do
+- [x] Mapear as perguntas de relatório realmente cobradas nos notebooks para conteúdos do
   handbook:
   - Tabular: escolha do modelo/configuração, sinais relevantes e restrições de uso;
   - Visão: escolha de descritores, confusões entre materiais e regime autônomo/assistivo;
   - NLP: vazamento, termos associados, restrição de uso e degradação temporal.
-- [ ] Criar checklist de arquivos e submissão, ressaltando prazo e hora do servidor.
-- [ ] Criar lembrete sobre limite/intervalo de submissões conforme regras oficiais.
-- [ ] Criar checklist de autoria e declaração de uso de IA generativa no relatório.
+- [x] Criar checklist de arquivos e submissão, ressaltando prazo e hora do servidor.
+- [x] Criar lembrete sobre limite/intervalo de submissões conforme regras oficiais.
+- [x] Criar checklist de autoria e declaração de uso de IA generativa no relatório.
 
 ## Trilhas de estudo
 
@@ -427,7 +427,7 @@ competição.
 2. [ ] Layout compartilhado, menu móvel e estrutura de rotas.
 3. [x] Página “Comece aqui” e checklists de autoria/preparação.
 4. [x] Páginas profundas de Explorar, Configurar, Modelar e Avaliar.
-5. [ ] Diário de experimento, página de relatório e entrega.
+5. [x] Diário de experimento, página de relatório e entrega.
 6. [ ] Glossário pesquisável e links contextuais para os termos.
 7. [ ] Páginas específicas de Tabular, Visão e NLP.
 8. [ ] Página de materiais e referências.
