@@ -40,9 +40,21 @@ export type ExperimentLogEntry = {
 export type GlossaryEntry = {
   term: string;
   definition: string;
-  tags: string[];
+  stages: GlossaryStage[];
+  trails: GlossaryTrail[];
+  appearsIn: { label: string; href: string }[];
   related?: { label: string; href: string }[];
 };
+
+export type GlossaryStage =
+  | 'Fundamentos'
+  | 'Explorar'
+  | 'Configurar'
+  | 'Modelar'
+  | 'Avaliar'
+  | 'Responsabilidade';
+
+export type GlossaryTrail = 'Comum' | 'Tabular' | 'Visão' | 'NLP';
 
 export type NextStepContent = {
   href: string;

@@ -8,6 +8,7 @@ import { ModelarPage } from '@/components/pages/modelar-page';
 import { AvaliarPage } from '@/components/pages/avaliar-page';
 import { QuickReferencePage } from '@/components/pages/quick-reference-page';
 import { RegistrarEEntregarPage } from '@/components/pages/registrar-e-entregar-page';
+import { GlossaryPage } from '@/components/pages/glossary-page';
 import { notFound } from 'next/navigation';
 
 type Props = { params: Promise<{ slug: string[] }> };
@@ -31,6 +32,7 @@ export default async function HandbookPage({ params }: Props) {
   if (page.slug[0] === 'modelar') return <ModelarPage />;
   if (page.slug[0] === 'avaliar') return <AvaliarPage />;
   if (page.slug[0] === 'registrar-e-entregar') return <RegistrarEEntregarPage />;
+  if (page.slug[0] === 'glossario') return <GlossaryPage />;
   if (['metricas', 'matriz-de-confusao', 'diario-de-experimento', 'checklists'].includes(page.slug[0])) return <QuickReferencePage kind={page.slug[0] as 'metricas' | 'matriz-de-confusao' | 'diario-de-experimento' | 'checklists'} />;
 
   return (

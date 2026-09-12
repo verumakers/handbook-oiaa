@@ -374,32 +374,32 @@ competição.
 
 ### Estrutura e navegação
 
-- [ ] Criar página de glossário com busca local por termo e definição.
-- [ ] Criar filtros por etapa: Fundamentos, Explorar, Configurar, Modelar, Avaliar e
+- [x] Criar página de glossário com busca local por termo e definição.
+- [x] Criar filtros por etapa: Fundamentos, Explorar, Configurar, Modelar, Avaliar e
   Responsabilidade.
-- [ ] Criar filtros por trilha: Comum, Tabular, Visão e NLP.
-- [ ] Em cada termo, exibir “onde aparece”, “termos relacionados” e link para a página
+- [x] Criar filtros por trilha: Comum, Tabular, Visão e NLP.
+- [x] Em cada termo, exibir “onde aparece”, “termos relacionados” e link para a página
   que o usa.
-- [ ] Usar o conteúdo já levantado como base inicial e revisar definições para evitar
+- [x] Usar o conteúdo já levantado como base inicial e revisar definições para evitar
   afirmações absolutas ou dependentes de um desafio específico.
 
 ### Termos a publicar na primeira versão
 
-- [ ] Fundamentos: classificação, característica, classe, modelo, generalização, ruído,
+- [x] Fundamentos: classificação, característica, classe, modelo, generalização, ruído,
   aprendizado supervisionado, associação e causalidade, viés, viés de coleta, LGPD.
-- [ ] Explorar: acurácia, desbalanceamento de classes, histograma, boxplot, violino,
+- [x] Explorar: acurácia, desbalanceamento de classes, histograma, boxplot, violino,
   dispersão, interação, variável categórica e variável contínua.
-- [ ] Configurar: treino, validação, teste, estratificação, hiperparâmetro, parâmetro,
+- [x] Configurar: treino, validação, teste, estratificação, hiperparâmetro, parâmetro,
   `class_weight`, `max_depth`, `max_features`, `min_samples_leaf`, `n_estimators`,
   `C`, `gamma`, `min_df`, `ngram_range`, subajuste e sobreajuste.
-- [ ] Modelar: Jupyter, argumento nomeado, `fit`, `predict`, pipeline, scikit-learn,
+- [x] Modelar: Jupyter, argumento nomeado, `fit`, `predict`, pipeline, scikit-learn,
   regressão logística, árvore, floresta aleatória, SVM e Naive Bayes.
-- [ ] Avaliar: precisão, revocação, F1, F1-macro, falso positivo, falso negativo e matriz
+- [x] Avaliar: precisão, revocação, F1, F1-macro, falso positivo, falso negativo e matriz
   de confusão.
-- [ ] NLP: TF, IDF, TF-IDF, matriz esparsa, n-grama, saco de palavras, `fit_transform`,
+- [x] NLP: TF, IDF, TF-IDF, matriz esparsa, n-grama, saco de palavras, `fit_transform`,
   `transform` e vazamento de dados.
-- [ ] Contexto real: deriva conceitual, deslocamento de domínio e problema adversarial.
-- [ ] Interpretação e governança: classe crítica, custo assimétrico, importância de
+- [x] Contexto real: deriva conceitual, deslocamento de domínio e problema adversarial.
+- [x] Interpretação e governança: classe crítica, custo assimétrico, importância de
   características, coeficiente, regime assistivo, regime autônomo, procedência do rótulo,
   reprodutibilidade e monitoramento.
 
@@ -413,8 +413,8 @@ competição.
 
 ## Interações úteis, sem extrapolar o escopo
 
-- [ ] Adicionar busca no glossário.
-- [ ] Adicionar filtro de trilha e etapa nas tabelas de termos.
+- [x] Adicionar busca no glossário.
+- [x] Adicionar filtro de trilha e etapa nas tabelas de termos.
 - [ ] Permitir marcar checklists e manter a marcação apenas no navegador.
 - [ ] Permitir copiar o modelo do diário de experimento para área de transferência.
 - [ ] Adicionar navegação “anterior / próxima etapa” ao final das páginas.
@@ -428,7 +428,7 @@ competição.
 3. [x] Página “Comece aqui” e checklists de autoria/preparação.
 4. [x] Páginas profundas de Explorar, Configurar, Modelar e Avaliar.
 5. [x] Diário de experimento, página de relatório e entrega.
-6. [ ] Glossário pesquisável e links contextuais para os termos.
+6. [x] Glossário pesquisável e links contextuais para os termos.
 7. [ ] Páginas específicas de Tabular, Visão e NLP.
 8. [ ] Página de materiais e referências.
 9. [ ] Revisão pedagógica com foco em não revelar soluções.
