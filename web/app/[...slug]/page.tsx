@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import { findHandbookPage, handbookPages } from '@/lib/handbook-pages';
 import { NextStep } from '@/components/editorial/next-step';
 import { PageHeader } from '@/components/editorial/page-header';
+import { ConfigurarPage } from '@/components/pages/configurar-page';
+import { ExplorarPage } from '@/components/pages/explorar-page';
 import { notFound } from 'next/navigation';
 
 type Props = { params: Promise<{ slug: string[] }> };
@@ -19,6 +21,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function HandbookPage({ params }: Props) {
   const page = findHandbookPage((await params).slug);
   if (!page) notFound();
+
+  if (page.slug[0] === 'explorar') return <ExplorarPage />;
+  if (page.slug[0] === 'configurar') return <ConfigurarPage />;
 
   return (
     <section className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24">

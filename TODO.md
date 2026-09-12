@@ -182,28 +182,28 @@ observar distribuição e transformar curiosidade em hipótese verificável.
 
 ### Conteúdo
 
-- [ ] Explicar caso, característica, classe e classificação.
-- [ ] Explicar diferença entre variável contínua e categórica.
-- [ ] Ensinar a escolher uma leitura visual adequada:
-  - barras para categorias e proporções;
-  - barras de média para comparar médias, incluindo o significado da barra de erro;
-  - histograma para distribuição e sobreposição;
-  - boxplot para comparar centro, dispersão e pontos fora da curva;
-  - dispersão para relações e interações entre duas características;
-  - violino como complemento do boxplot;
-  - galeria por faixa para confrontar um descritor numérico com as imagens reais;
-  - termos frequentes por classe, ressaltando que frequência não prova poder preditivo.
-- [ ] Criar tabela de trade-offs dos gráficos.
-- [ ] Criar bloco sobre desbalanceamento de classes e por que acurácia isolada pode
+- [x] Explicar caso, característica, classe e classificação.
+- [x] Explicar diferença entre variável contínua e categórica.
+- [x] Ensinar a escolher uma leitura visual adequada:
+  - [x] barras para categorias e proporções;
+  - [x] barras de média para comparar médias, incluindo o significado da barra de erro;
+  - [x] histograma para distribuição e sobreposição;
+  - [x] boxplot para comparar centro, dispersão e pontos fora da curva;
+  - [x] dispersão para relações e interações entre duas características;
+  - [x] violino como complemento do boxplot;
+  - [x] galeria por faixa para confrontar um descritor numérico com as imagens reais;
+  - [x] termos frequentes por classe, ressaltando que frequência não prova poder preditivo.
+- [x] Criar tabela de trade-offs dos gráficos.
+- [x] Criar bloco sobre desbalanceamento de classes e por que acurácia isolada pode
   enganar.
-- [ ] Criar bloco sobre associação versus causalidade.
-- [ ] Criar bloco sobre viés de coleta e representatividade dos dados.
-- [ ] Criar perguntas de equipe:
+- [x] Criar bloco sobre associação versus causalidade.
+- [x] Criar bloco sobre viés de coleta e representatividade dos dados.
+- [x] Criar perguntas de equipe:
   - quais são as classes e estão equilibradas?
   - que característica parece separar grupos?
   - há sobreposição ou exceções?
   - existe uma combinação de características que merece um teste?
-- [ ] Criar o primeiro trecho do diário: hipótese e evidência observada.
+- [x] Criar o primeiro trecho do diário: hipótese e evidência observada.
 
 ## Página: Configurar
 
@@ -213,26 +213,26 @@ Ensinar a transformar uma hipótese em um experimento justo, comparável e regis
 
 ### Conteúdo
 
-- [ ] Explicar conjuntos de treino, validação e teste sem revelar dados ou resultados.
-- [ ] Explicar estratificação e `stratify=y`.
-- [ ] Explicar hiperparâmetro versus parâmetro.
-- [ ] Explicar por que mudar uma variável por vez facilita a interpretação.
-- [ ] Explicar que a validação estima desempenho; ela não é a resposta da competição.
-- [ ] Explicar o compromisso entre complexidade, subajuste e sobreajuste.
-- [ ] Criar tabela de trade-offs:
-  - tamanho da validação;
-  - estratificação;
-  - profundidade de árvore;
-  - número de árvores;
-  - mínimo de exemplos por folha;
-  - pesos de classe;
-  - força de regularização `C` e, no SVM com kernel RBF, sua interação com `gamma`;
-  - padronização;
-  - conjunto de descritores, quando a trilha for Visão;
-  - limite de vocabulário, `min_df` e n-gramas, quando a trilha for NLP.
-- [ ] Indicar quando um seletor não se aplica ao modelo escolhido, para evitar que o aluno
+- [x] Explicar conjuntos de treino, validação e teste sem revelar dados ou resultados.
+- [x] Explicar estratificação e `stratify=y`.
+- [x] Explicar hiperparâmetro versus parâmetro.
+- [x] Explicar por que mudar uma variável por vez facilita a interpretação.
+- [x] Explicar que a validação estima desempenho; ela não é a resposta da competição.
+- [x] Explicar o compromisso entre complexidade, subajuste e sobreajuste.
+- [x] Criar tabela de trade-offs:
+  - [x] tamanho da validação;
+  - [x] estratificação;
+  - [x] profundidade de árvore;
+  - [x] número de árvores;
+  - [x] mínimo de exemplos por folha;
+  - [x] pesos de classe;
+  - [x] força de regularização `C` e, no SVM com kernel RBF, sua interação com `gamma`;
+  - [x] padronização;
+  - [x] conjunto de descritores, quando a trilha for Visão;
+  - [x] limite de vocabulário, `min_df` e n-gramas, quando a trilha for NLP.
+- [x] Indicar quando um seletor não se aplica ao modelo escolhido, para evitar que o aluno
   atribua a ele uma mudança que não produziu efeito.
-- [ ] Criar modelo de plano de experimento: hipótese, mudança, medida observada e
+- [x] Criar modelo de plano de experimento: hipótese, mudança, medida observada e
   critério para manter/descartar.
 
 ## Página: Modelar
