@@ -1,5 +1,6 @@
 import { Callout } from '@/components/editorial/callout';
 import { PageHeader } from '@/components/editorial/page-header';
+import { PageContents } from '@/components/editorial/page-contents';
 import { TrailBadge } from '@/components/editorial/trail-badge';
 import { findHandbookPage } from '@/lib/handbook-pages';
 import { citationConvention, competitionPlatforms, currentNotebooks, historicalNotebooks, officialGuide, type MaterialLink } from '@/lib/materials-content';
@@ -31,6 +32,7 @@ export function MaterialsPage() {
   return (
     <article className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24">
       <PageHeader {...page} />
+      <PageContents items={[{ href: '#guia-oficial', label: 'Guia oficial' }, { href: '#notebooks-atuais', label: 'Notebooks 2026' }, { href: '#plataformas', label: 'Plataformas' }, { href: '#historico', label: 'Histórico 2025' }, { href: '#citacoes', label: 'Citações' }]} />
 
       <div className="mt-12 grid gap-4 lg:grid-cols-2">
         <Callout kind="regra" title="O guia oficial vem antes do handbook">Confira no guia e na plataforma as regras, o prazo, o horário do servidor, os arquivos pedidos e qualquer atualização. Este handbook não substitui o material oficial.</Callout>

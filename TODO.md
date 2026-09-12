@@ -415,41 +415,41 @@ competição.
 
 - [x] Adicionar busca no glossário.
 - [x] Adicionar filtro de trilha e etapa nas tabelas de termos.
-- [ ] Permitir marcar checklists e manter a marcação apenas no navegador.
-- [ ] Permitir copiar o modelo do diário de experimento para área de transferência.
-- [ ] Adicionar navegação “anterior / próxima etapa” ao final das páginas.
-- [ ] Adicionar sumário com âncoras em páginas longas.
-- [ ] Não adicionar ranking, simulador de solução, upload de dados ou executor de código.
+- [x] Permitir marcar checklists e manter a marcação apenas no navegador.
+- [x] Permitir copiar o modelo do diário de experimento para área de transferência.
+- [x] Adicionar navegação “anterior / próxima etapa” ao final das páginas.
+- [x] Adicionar sumário com âncoras em páginas longas.
+- [x] Não adicionar ranking, simulador de solução, upload de dados ou executor de código.
 
 ## Ordem recomendada de implementação
 
 1. [x] Alinhar o runtime com Next.js App Router e o destino Vercel.
-2. [ ] Layout compartilhado, menu móvel e estrutura de rotas.
+2. [x] Layout compartilhado, menu móvel e estrutura de rotas.
 3. [x] Página “Comece aqui” e checklists de autoria/preparação.
 4. [x] Páginas profundas de Explorar, Configurar, Modelar e Avaliar.
 5. [x] Diário de experimento, página de relatório e entrega.
 6. [x] Glossário pesquisável e links contextuais para os termos.
 7. [x] Páginas específicas de Tabular, Visão e NLP.
 8. [x] Página de materiais e referências.
-9. [ ] Revisão pedagógica com foco em não revelar soluções.
-10. [ ] Revisão de acessibilidade, responsividade e conteúdo em celular.
+9. [x] Revisão pedagógica com foco em não revelar soluções.
+10. [x] Revisão de acessibilidade, responsividade e conteúdo em celular.
 11. [ ] Build de produção, configuração da Vercel com `web/` como raiz e domínio
     `handbook.verumakers.com.br`.
 
 ## Critérios para considerar a primeira versão pronta
 
-- [ ] Um aluno consegue encontrar a explicação de uma etapa do ciclo sem conhecer o
+- [x] Um aluno consegue encontrar a explicação de uma etapa do ciclo sem conhecer o
   vocabulário técnico previamente.
-- [ ] Um aluno consegue entender o que observar antes de testar uma configuração.
-- [ ] O diário de experimento permite transformar uma rodada de notebook em registro de
+- [x] Um aluno consegue entender o que observar antes de testar uma configuração.
+- [x] O diário de experimento permite transformar uma rodada de notebook em registro de
   relatório.
-- [ ] As três trilhas explicam suas diferenças sem sugerir a solução do desafio.
-- [ ] O glossário encontra e contextualiza os termos mais difíceis.
-- [ ] O conteúdo deixa explícito o limite de autoria e uso responsável de IA generativa.
-- [ ] Todo seletor de configuração de 2026 tem uma explicação e uma tabela de trade-off,
+- [x] As três trilhas explicam suas diferenças sem sugerir a solução do desafio.
+- [x] O glossário encontra e contextualiza os termos mais difíceis.
+- [x] O conteúdo deixa explícito o limite de autoria e uso responsável de IA generativa.
+- [x] Todo seletor de configuração de 2026 tem uma explicação e uma tabela de trade-off,
   sem indicar resposta ou valor ideal.
-- [ ] Toda métrica, diagnóstico e pergunta de relatório exibidos nos notebooks de 2026
+- [x] Toda métrica, diagnóstico e pergunta de relatório exibidos nos notebooks de 2026
   aponta para uma seção correspondente do handbook.
-- [ ] Os controles de 2025 aparecem apenas como referência histórica e não confundem o
+- [x] Os controles de 2025 aparecem apenas como referência histórica e não confundem o
   percurso atual.
-- [ ] O site funciona bem em celular e pode ser publicado pela Vercel.
+- [x] O site funciona bem em celular e pode ser publicado pela Vercel.

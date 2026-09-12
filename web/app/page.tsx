@@ -13,6 +13,7 @@ import Link from 'next/link';
 import { Callout } from '@/components/editorial/callout';
 import { Checklist } from '@/components/editorial/checklist';
 import { NextStep } from '@/components/editorial/next-step';
+import { PageContents } from '@/components/editorial/page-contents';
 import { gettingStartedContent } from '@/lib/getting-started-content';
 
 const steps = [
@@ -121,6 +122,10 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <div className="mx-auto max-w-7xl px-5 pt-10 sm:px-8 lg:px-12">
+        <PageContents label="Navegue por esta página" items={[{ href: '#como-usar', label: 'Como usar' }, { href: '#fluxo', label: 'Percurso' }, { href: '#autoria', label: 'Autoria e IA' }, { href: '#preparar-notebook', label: 'Preparar o notebook' }, { href: '#trabalho-em-equipe', label: 'Equipe' }, { href: '#checklists', label: 'Checklists' }, { href: '#glossario', label: 'Glossário' }]} />
+      </div>
 
       <section
         aria-labelledby="como-usar"

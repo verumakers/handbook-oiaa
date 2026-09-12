@@ -17,6 +17,7 @@ export const navigationItems: NavigationItem[] = [
   { href: '/configurar', label: 'Configurar' },
   { href: '/modelar', label: 'Modelar' },
   { href: '/avaliar', label: 'Avaliar' },
+  { href: '/registrar-e-entregar', label: 'Entregar' },
   {
     href: '/trilhas/tabular',
     label: 'Trilhas',

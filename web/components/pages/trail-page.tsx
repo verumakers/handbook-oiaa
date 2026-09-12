@@ -1,6 +1,7 @@
 import { Callout } from '@/components/editorial/callout';
 import { NextStep } from '@/components/editorial/next-step';
 import { PageHeader } from '@/components/editorial/page-header';
+import { PageContents } from '@/components/editorial/page-contents';
 import { QuestionList } from '@/components/editorial/question-list';
 import { TradeoffTable } from '@/components/editorial/tradeoff-table';
 import { TrailBadge } from '@/components/editorial/trail-badge';
@@ -13,6 +14,7 @@ export function TrailPage({ content }: { content: TrailContent }) {
   return <article className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24">
     <TrailBadge trail={content.trail} />
     <div className="mt-4"><PageHeader {...page} /></div>
+    <PageContents items={[{ href: '#o-que-muda', label: 'O que muda' }, { href: '#seletores', label: 'Seletores' }, { href: '#tradeoffs', label: 'Trade-offs' }, { href: '#diagnosticos', label: 'Diagnóstico' }, { href: '#governanca', label: 'Governança' }, { href: '#relatorio', label: 'Relatório' }]} />
 
     <section className="mt-12" aria-labelledby="o-que-muda">
       <p className="text-sm font-bold uppercase tracking-[.14em] text-primary">O que muda nesta trilha</p>
