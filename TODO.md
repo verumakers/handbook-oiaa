@@ -328,46 +328,46 @@ competição.
 
 ### Dados tabulares · Operação Farol
 
-- [ ] Explicar linhas, colunas, características e variável-alvo.
-- [ ] Criar guia de leitura de variáveis numéricas e categóricas.
-- [ ] Explicar interações entre características com exemplo sintético.
-- [ ] Explicar importância de características e coeficientes como pistas de associação,
+- [x] Explicar linhas, colunas, características e variável-alvo.
+- [x] Criar guia de leitura de variáveis numéricas e categóricas.
+- [x] Explicar interações entre características com exemplo sintético.
+- [x] Explicar importância de características e coeficientes como pistas de associação,
   não como prova de causa.
-- [ ] Criar tabela de trade-offs para árvore, floresta aleatória e regressão logística.
-- [ ] Explicar como reconhecer sinais de sobreajuste em árvores sem prescrever valor de
+- [x] Criar tabela de trade-offs para árvore, floresta aleatória e regressão logística.
+- [x] Explicar como reconhecer sinais de sobreajuste em árvores sem prescrever valor de
   hiperparâmetro.
-- [ ] Criar seção sobre custo assimétrico, variáveis socialmente sensíveis, profecia
+- [x] Criar seção sobre custo assimétrico, variáveis socialmente sensíveis, profecia
   autorrealizável, acesso à lista, prazo de validade e responsabilidade pela decisão.
 
 ### Visão computacional · Missão Recomeço
 
-- [ ] Explicar que o notebook converte imagens em descritores numéricos.
-- [ ] Explicar brilho, contraste, saturação, bordas e textura em linguagem acessível.
-- [ ] Explicar por que padronização é importante para modelos baseados em distância e não
+- [x] Explicar que o notebook converte imagens em descritores numéricos.
+- [x] Explicar brilho, contraste, saturação, bordas e textura em linguagem acessível.
+- [x] Explicar por que padronização é importante para modelos baseados em distância e não
   altera a lógica de árvores.
-- [ ] Criar tabela de trade-offs para padronização, regressão logística, floresta e SVM.
-- [ ] Incluir trade-offs de seleção de descritores e da força `C`; explicar que `C` e
+- [x] Criar tabela de trade-offs para padronização, regressão logística, floresta e SVM.
+- [x] Incluir trade-offs de seleção de descritores e da força `C`; explicar que `C` e
   `gamma` não devem ser interpretados isoladamente no SVM RBF.
-- [ ] Ensinar análise qualitativa dos erros pela galeria, procurando condições recorrentes
+- [x] Ensinar análise qualitativa dos erros pela galeria, procurando condições recorrentes
   de captura em vez de apenas contar erros.
-- [ ] Criar bloco de cautela sobre deslocamento de domínio: iluminação, câmera ou contexto
+- [x] Criar bloco de cautela sobre deslocamento de domínio: iluminação, câmera ou contexto
   diferentes podem alterar o desempenho.
-- [ ] Criar seção sobre regime assistivo/autônomo, critérios de mudança de regime e
+- [x] Criar seção sobre regime assistivo/autônomo, critérios de mudança de regime e
   participação das pessoas afetadas na decisão de implantação.
 
 ### Linguagem natural · Operação Voz do Cliente
 
-- [ ] Explicar texto livre, tokenização conceitual e representação vetorial.
-- [ ] Explicar TF, IDF e TF-IDF com um exemplo inventado e pequeno.
-- [ ] Explicar matriz esparsa, vocabulário, unigramas, bigramas e saco de palavras.
-- [ ] Explicar os trade-offs de `max_palavras`, `min_df` e n-gramas, incluindo memória,
+- [x] Explicar texto livre, tokenização conceitual e representação vetorial.
+- [x] Explicar TF, IDF e TF-IDF com um exemplo inventado e pequeno.
+- [x] Explicar matriz esparsa, vocabulário, unigramas, bigramas e saco de palavras.
+- [x] Explicar os trade-offs de `max_palavras`, `min_df` e n-gramas, incluindo memória,
   dimensionalidade, termos raros e perda de contexto.
-- [ ] Explicar `fit_transform` no treino e `transform` na validação/teste.
-- [ ] Criar tabela de trade-offs para TF-IDF, n-gramas, regressão logística, SVM linear e
+- [x] Explicar `fit_transform` no treino e `transform` na validação/teste.
+- [x] Criar tabela de trade-offs para TF-IDF, n-gramas, regressão logística, SVM linear e
   Naive Bayes Multinomial.
-- [ ] Criar bloco sobre ruído de rótulos e por que texto e rótulo podem não parecer
+- [x] Criar bloco sobre ruído de rótulos e por que texto e rótulo podem não parecer
   perfeitamente alinhados.
-- [ ] Criar seção sobre procedência do rótulo, viés linguístico, distribuição de erros
+- [x] Criar seção sobre procedência do rótulo, viés linguístico, distribuição de erros
   entre grupos, restrições de finalidade e monitoramento de deriva sem rótulo imediato.
 
 ## Glossário completo
@@ -429,7 +429,7 @@ competição.
 4. [x] Páginas profundas de Explorar, Configurar, Modelar e Avaliar.
 5. [x] Diário de experimento, página de relatório e entrega.
 6. [x] Glossário pesquisável e links contextuais para os termos.
-7. [ ] Páginas específicas de Tabular, Visão e NLP.
+7. [x] Páginas específicas de Tabular, Visão e NLP.
 8. [ ] Página de materiais e referências.
 9. [ ] Revisão pedagógica com foco em não revelar soluções.
 10. [ ] Revisão de acessibilidade, responsividade e conteúdo em celular.
