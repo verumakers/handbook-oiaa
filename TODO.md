@@ -77,8 +77,8 @@ rotas de consulta não devem manter uma segunda explicação divergente.
 
 - [x] Criar uma fonte de conteúdo estruturada para páginas, blocos de leitura, perguntas,
   cards de atenção, checklists e tabelas de trade-off.
-- [ ] Decidir e configurar o formato editorial: MDX para textos longos e TypeScript/JSON
-  para conteúdo repetível como glossário, trilhas e trade-offs.
+- [x] Definir o formato editorial atual: TypeScript para conteúdo estruturado e textos
+  longos nesta primeira versão; MDX fica como evolução se a manutenção exigir.
 - [x] Criar componentes reutilizáveis:
   - `PageHeader`: contexto, título e resumo da página.
   - `Callout`: conceito, dica, atenção e regra.
@@ -91,8 +91,8 @@ rotas de consulta não devem manter uma segunda explicação divergente.
   - `TrailBadge`: Tabular, Visão Computacional ou Linguagem Natural.
   - `NextStep`: ligação contextual para a próxima etapa do percurso.
 - [x] Usar dados fictícios em exemplos visuais de métricas e matriz de confusão.
-- [ ] Criar uma convenção para citar o material oficial sem duplicar nem substituir suas
-  regras.
+- [x] Criar uma convenção para citar o material oficial sem duplicar nem substituir suas
+  regras: `Fonte/Material oficial · título · fase · ano`, sempre com link para a origem.
 
 ## Rastreabilidade com os notebooks de 2026
 
@@ -150,11 +150,11 @@ deve indicar um valor ou uma combinação “melhor”.
 
 ### Referência histórica de 2025
 
-- [ ] Tratar `train_size`/`train_ratio` como versões anteriores do mesmo trade-off entre
+- [x] Tratar `train_size`/`train_ratio` como versões anteriores do mesmo trade-off entre
   treino e avaliação.
-- [ ] Tratar `normalize_ids` e `normalize_ratings` como exemplos históricos de
+- [x] Tratar `normalize_ids` e `normalize_ratings` como exemplos históricos de
   transformação e escala, sem misturá-los aos seletores da edição de 2026.
-- [ ] Identificar visualmente conteúdo histórico para o aluno não tentar reproduzir uma
+- [x] Identificar visualmente conteúdo histórico para o aluno não tentar reproduzir uma
   interface ou atividade que mudou.
 
 ## Página: Comece aqui
@@ -405,11 +405,11 @@ competição.
 
 ## Materiais e referências
 
-- [ ] Criar página de materiais com links organizados para guia oficial, plataformas e
+- [x] Criar página de materiais com links organizados para guia oficial, plataformas e
   notebooks de 2025 e 2026.
-- [ ] Identificar notebooks de 2026 como referência atual e os de 2025 como histórico.
-- [ ] Incluir avisos de que a cópia de trabalho deve ser criada no Drive conforme o guia.
-- [ ] Não embutir respostas de lacunas ou saídas de execução dos notebooks no handbook.
+- [x] Identificar notebooks de 2026 como referência atual e os de 2025 como histórico.
+- [x] Incluir avisos de que a cópia de trabalho deve ser criada no Drive conforme o guia.
+- [x] Não embutir respostas de lacunas ou saídas de execução dos notebooks no handbook.
 
 ## Interações úteis, sem extrapolar o escopo
 
@@ -430,7 +430,7 @@ competição.
 5. [x] Diário de experimento, página de relatório e entrega.
 6. [x] Glossário pesquisável e links contextuais para os termos.
 7. [x] Páginas específicas de Tabular, Visão e NLP.
-8. [ ] Página de materiais e referências.
+8. [x] Página de materiais e referências.
 9. [ ] Revisão pedagógica com foco em não revelar soluções.
 10. [ ] Revisão de acessibilidade, responsividade e conteúdo em celular.
 11. [ ] Build de produção, configuração da Vercel com `web/` como raiz e domínio

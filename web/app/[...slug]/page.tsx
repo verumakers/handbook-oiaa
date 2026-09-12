@@ -10,6 +10,7 @@ import { QuickReferencePage } from '@/components/pages/quick-reference-page';
 import { RegistrarEEntregarPage } from '@/components/pages/registrar-e-entregar-page';
 import { GlossaryPage } from '@/components/pages/glossary-page';
 import { TrailPage } from '@/components/pages/trail-page';
+import { MaterialsPage } from '@/components/pages/materials-page';
 import { trailContentBySlug } from '@/lib/trails-content';
 import { notFound } from 'next/navigation';
 
@@ -35,6 +36,7 @@ export default async function HandbookPage({ params }: Props) {
   if (page.slug[0] === 'avaliar') return <AvaliarPage />;
   if (page.slug[0] === 'registrar-e-entregar') return <RegistrarEEntregarPage />;
   if (page.slug[0] === 'glossario') return <GlossaryPage />;
+  if (page.slug[0] === 'materiais') return <MaterialsPage />;
   if (page.slug[0] === 'trilhas') return <TrailPage content={trailContentBySlug[page.slug[1] as keyof typeof trailContentBySlug]} />;
   if (['metricas', 'matriz-de-confusao', 'diario-de-experimento', 'checklists'].includes(page.slug[0])) return <QuickReferencePage kind={page.slug[0] as 'metricas' | 'matriz-de-confusao' | 'diario-de-experimento' | 'checklists'} />;
 
