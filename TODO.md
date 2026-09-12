@@ -159,18 +159,18 @@ deve indicar um valor ou uma combinação “melhor”.
 
 ## Página: Comece aqui
 
-- [ ] Explicar o objetivo do handbook e a diferença entre estudar, consultar e receber
+- [x] Explicar o objetivo do handbook e a diferença entre estudar, consultar e receber
   uma solução.
-- [ ] Criar o quadro “o tutor pode / o tutor não pode”.
-- [ ] Criar o quadro “uso responsável de IA generativa”:
+- [x] Criar o quadro “o tutor pode / o tutor não pode”.
+- [x] Criar o quadro “uso responsável de IA generativa”:
   - explicar conceitos e revisar entendimento: permitido;
   - copiar sem entender ou apresentar conteúdo de terceiros como próprio: não permitido;
   - registrar ferramenta, objetivo, verificação e decisão da equipe no relatório.
-- [ ] Explicar o fluxo da plataforma: login, abertura do notebook, cópia no Drive,
+- [x] Explicar o fluxo da plataforma: login, abertura do notebook, cópia no Drive,
   execução em ordem, geração de arquivos e submissão.
-- [ ] Criar checklist “Antes de abrir o notebook”.
-- [ ] Criar checklist “Antes de enviar”.
-- [ ] Explicar os papéis rotativos de equipe: ler e interpretar, operar o notebook,
+- [x] Criar checklist “Antes de abrir o notebook”.
+- [x] Criar checklist “Antes de enviar”.
+- [x] Explicar os papéis rotativos de equipe: ler e interpretar, operar o notebook,
   registrar; deixar explícito que todos devem compreender a entrega final.
 
 ## Página: Explorar
@@ -425,7 +425,7 @@ competição.
 
 1. [x] Alinhar o runtime com Next.js App Router e o destino Vercel.
 2. [ ] Layout compartilhado, menu móvel e estrutura de rotas.
-3. [ ] Página “Comece aqui” e checklists de autoria/preparação.
+3. [x] Página “Comece aqui” e checklists de autoria/preparação.
 4. [ ] Páginas profundas de Explorar, Configurar, Modelar e Avaliar.
 5. [ ] Diário de experimento, página de relatório e entrega.
 6. [ ] Glossário pesquisável e links contextuais para os termos.
