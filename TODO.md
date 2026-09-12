@@ -55,10 +55,8 @@ rotas de consulta não devem manter uma segunda explicação divergente.
 ## Fundação técnica
 
 - [x] Criar o frontend em `web/`.
-- [ ] Alinhar o runtime ao objetivo definido: o scaffold atual usa Vinext e o plugin de
-  Sites, enquanto o produto foi especificado como Next.js com deploy na Vercel. Antes de
-  criar as páginas profundas, migrar para Next.js App Router nativo ou validar
-  explicitamente uma estratégia compatível com a Vercel. Preferência: Next.js nativo.
+- [x] Alinhar o runtime ao objetivo definido: frontend migrado para Next.js App Router
+  nativo, com build compatível com a Vercel.
 - [x] Definir tokens de cor:
   - `#031721`: base escura e texto em superfícies claras.
   - `#FFFFFF`: superfícies claras e texto em fundos escuros.
@@ -425,7 +423,7 @@ competição.
 
 ## Ordem recomendada de implementação
 
-1. [ ] Alinhar o runtime com Next.js App Router e o destino Vercel.
+1. [x] Alinhar o runtime com Next.js App Router e o destino Vercel.
 2. [ ] Layout compartilhado, menu móvel e estrutura de rotas.
 3. [ ] Página “Comece aqui” e checklists de autoria/preparação.
 4. [ ] Páginas profundas de Explorar, Configurar, Modelar e Avaliar.
