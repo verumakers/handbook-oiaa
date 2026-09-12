@@ -90,7 +90,7 @@ rotas de consulta não devem manter uma segunda explicação divergente.
   - `GlossaryTerm`: termo, definição curta, tags e links relacionados.
   - `TrailBadge`: Tabular, Visão Computacional ou Linguagem Natural.
   - `NextStep`: ligação contextual para a próxima etapa do percurso.
-- [ ] Usar dados fictícios em exemplos visuais de métricas e matriz de confusão.
+- [x] Usar dados fictícios em exemplos visuais de métricas e matriz de confusão.
 - [ ] Criar uma convenção para citar o material oficial sem duplicar nem substituir suas
   regras.
 
@@ -244,25 +244,25 @@ lacuna ou opção disponível.
 
 ### Conteúdo
 
-- [ ] Explicar célula de texto, célula de código, execução sequencial e saída.
-- [ ] Criar guia de leitura de erros: localizar a célula, reler a mensagem, conferir
+- [x] Explicar célula de texto, célula de código, execução sequencial e saída.
+- [x] Criar guia de leitura de erros: localizar a célula, reler a mensagem, conferir
   execução anterior, corrigir e reexecutar a partir do ponto necessário.
-- [ ] Explicar `fit`, `predict`, argumentos nomeados e a interface do scikit-learn.
-- [ ] Explicar a estrutura `if` / `elif` / `else` usada para construir o modelo escolhido,
+- [x] Explicar `fit`, `predict`, argumentos nomeados e a interface do scikit-learn.
+- [x] Explicar a estrutura `if` / `elif` / `else` usada para construir o modelo escolhido,
   sem preencher as lacunas dos notebooks.
-- [ ] Explicar pipeline, `fit_transform` e `transform` como formas de evitar vazamento.
-- [ ] Criar tabela de trade-offs de modelos, sem recomendar um para um desafio:
+- [x] Explicar pipeline, `fit_transform` e `transform` como formas de evitar vazamento.
+- [x] Criar tabela de trade-offs de modelos, sem recomendar um para um desafio:
   - regressão logística;
   - árvore de decisão;
   - floresta aleatória;
   - SVM;
   - Naive Bayes Multinomial;
   - com observações específicas por tipo de dado quando necessário.
-- [ ] Criar bloco “Como ler uma referência técnica”: nome exato da classe, parâmetros,
+- [x] Criar bloco “Como ler uma referência técnica”: nome exato da classe, parâmetros,
   valores padrão e efeito esperado de uma mudança.
-- [ ] Explicar reprodutibilidade e o papel de `random_state=42`, sem apresentá-lo como
+- [x] Explicar reprodutibilidade e o papel de `random_state=42`, sem apresentá-lo como
   hiperparâmetro a otimizar.
-- [ ] Criar bloco “O que não fazer”: preencher lacunas sem compreensão, pular células,
+- [x] Criar bloco “O que não fazer”: preencher lacunas sem compreensão, pular células,
   ajustar dados de teste e copiar código de terceiros.
 
 ## Página: Avaliar
@@ -273,31 +273,31 @@ Ensinar que resultado não é apenas um número: é evidência para decidir o pr
 
 ### Conteúdo
 
-- [ ] Explicar acurácia, precisão, revocação, F1 e F1-macro.
-- [ ] Criar tabela de trade-offs de métricas:
+- [x] Explicar acurácia, precisão, revocação, F1 e F1-macro.
+- [x] Criar tabela de trade-offs de métricas:
   - o que cada métrica responde;
   - quando ajuda;
   - quando não basta;
   - qual pergunta fazer em seguida.
-- [ ] Criar visualização interativa ou estática didática de uma matriz de confusão com
+- [x] Criar visualização interativa ou estática didática de uma matriz de confusão com
   números fictícios e destaque de linha, coluna, diagonal e erros.
-- [ ] Explicar falso positivo e falso negativo com exemplos neutros.
-- [ ] Explicar classe crítica e assimetria de custo: a mesma quantidade de erros pode ter
+- [x] Explicar falso positivo e falso negativo com exemplos neutros.
+- [x] Explicar classe crítica e assimetria de custo: a mesma quantidade de erros pode ter
   consequências diferentes dependendo da direção da confusão.
-- [ ] Explicar como ler o `classification_report` classe por classe.
-- [ ] Criar bloco sobre comparação entre treino e validação para identificar sinais de
+- [x] Explicar como ler o `classification_report` classe por classe.
+- [x] Criar bloco sobre comparação entre treino e validação para identificar sinais de
   sobreajuste e subajuste.
-- [ ] Criar blocos específicos de diagnóstico usados nos notebooks:
+- [x] Criar blocos específicos de diagnóstico usados nos notebooks:
   - Tabular: importância de características ou magnitude de coeficientes, sempre como
     associação e não causalidade;
   - Visão: galeria qualitativa de imagens classificadas incorretamente;
   - NLP: precisão e revocação da classe crítica e termos com maior peso no modelo.
-- [ ] Criar perguntas de equipe:
+- [x] Criar perguntas de equipe:
   - qual classe apresenta mais erros?
   - qual confusão se repete?
   - o resultado confirma ou contraria a hipótese?
   - o que mudaríamos na próxima rodada e por quê?
-- [ ] Criar trecho final do diário: resultado, leitura da matriz e próximo teste.
+- [x] Criar trecho final do diário: resultado, leitura da matriz e próximo teste.
 
 ## Página: Registrar e entregar
 
@@ -426,7 +426,7 @@ competição.
 1. [x] Alinhar o runtime com Next.js App Router e o destino Vercel.
 2. [ ] Layout compartilhado, menu móvel e estrutura de rotas.
 3. [x] Página “Comece aqui” e checklists de autoria/preparação.
-4. [ ] Páginas profundas de Explorar, Configurar, Modelar e Avaliar.
+4. [x] Páginas profundas de Explorar, Configurar, Modelar e Avaliar.
 5. [ ] Diário de experimento, página de relatório e entrega.
 6. [ ] Glossário pesquisável e links contextuais para os termos.
 7. [ ] Páginas específicas de Tabular, Visão e NLP.

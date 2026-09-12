@@ -4,6 +4,8 @@ import { NextStep } from '@/components/editorial/next-step';
 import { PageHeader } from '@/components/editorial/page-header';
 import { ConfigurarPage } from '@/components/pages/configurar-page';
 import { ExplorarPage } from '@/components/pages/explorar-page';
+import { ModelarPage } from '@/components/pages/modelar-page';
+import { AvaliarPage } from '@/components/pages/avaliar-page';
 import { notFound } from 'next/navigation';
 
 type Props = { params: Promise<{ slug: string[] }> };
@@ -24,6 +26,8 @@ export default async function HandbookPage({ params }: Props) {
 
   if (page.slug[0] === 'explorar') return <ExplorarPage />;
   if (page.slug[0] === 'configurar') return <ConfigurarPage />;
+  if (page.slug[0] === 'modelar') return <ModelarPage />;
+  if (page.slug[0] === 'avaliar') return <AvaliarPage />;
 
   return (
     <section className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24">
