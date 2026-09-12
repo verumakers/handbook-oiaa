@@ -65,12 +65,12 @@ rotas de consulta não devem manter uma segunda explicação divergente.
 - [x] Criar a tela inicial com o percurso, consulta rápida e autoria.
 - [ ] Ajustar a identidade visual definitiva: tipografia, favicon e logo Verum caso os
   arquivos de marca sejam disponibilizados.
-- [ ] Criar layout compartilhado com cabeçalho, navegação, rodapé e indicador da página
+- [x] Criar layout compartilhado com cabeçalho, navegação, rodapé e indicador da página
   atual.
-- [ ] Criar menu móvel acessível, com foco visível e fechamento por teclado.
-- [ ] Definir metadados por página e título consistente para compartilhamento.
-- [ ] Garantir responsividade em celular, tablet e desktop.
-- [ ] Garantir contraste, navegação por teclado, estrutura de títulos e texto principal
+- [x] Criar menu móvel acessível, com foco visível e fechamento por teclado.
+- [x] Definir metadados por página e título consistente para compartilhamento.
+- [x] Garantir responsividade em celular, tablet e desktop.
+- [x] Garantir contraste, navegação por teclado, estrutura de títulos e texto principal
   com tamanho mínimo de leitura confortável.
 
 ## Modelo de conteúdo reutilizável
