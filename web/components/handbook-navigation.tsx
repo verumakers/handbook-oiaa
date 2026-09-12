@@ -18,11 +18,7 @@ export const navigationItems: NavigationItem[] = [
   { href: '/modelar', label: 'Modelar' },
   { href: '/avaliar', label: 'Avaliar' },
   { href: '/registrar-e-entregar', label: 'Entregar' },
-  {
-    href: '/trilhas/tabular',
-    label: 'Trilhas',
-    activePaths: ['/trilhas/tabular', '/trilhas/visao-computacional', '/trilhas/linguagem-natural'],
-  },
+  { href: '/trilhas', label: 'Trilhas' },
   {
     href: '/glossario',
     label: 'Consulta rápida',

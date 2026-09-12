@@ -12,6 +12,7 @@ export const handbookPages: HandbookPage[] = [
   { slug: ['modelar'], eyebrow: 'Percurso · etapa 3', title: 'Modelar', summary: 'Leia o notebook com autonomia e compreenda as escolhas antes de alterá-las.', group: 'Percurso' },
   { slug: ['avaliar'], eyebrow: 'Percurso · etapa 4', title: 'Avaliar', summary: 'Use métricas e erros observados para aprender com cada resultado.', group: 'Percurso' },
   { slug: ['registrar-e-entregar'], eyebrow: 'Percurso · etapa 5', title: 'Registrar e entregar', summary: 'Organize decisões, evidências e a entrega final da equipe.', group: 'Percurso' },
+  { slug: ['trilhas'], eyebrow: 'Trilhas de estudo', title: 'Escolha sua trilha', summary: 'Acesse o conteúdo específico de dados tabulares, visão computacional ou linguagem natural.', group: 'Trilhas' },
   { slug: ['trilhas', 'tabular'], eyebrow: 'Trilhas', title: 'Dados tabulares', summary: 'Uma trilha para observar tabelas, características e classificações.', group: 'Trilhas' },
   { slug: ['trilhas', 'visao-computacional'], eyebrow: 'Trilhas', title: 'Visão computacional', summary: 'Uma trilha para investigar imagens e descritores visuais.', group: 'Trilhas' },
   { slug: ['trilhas', 'linguagem-natural'], eyebrow: 'Trilhas', title: 'Linguagem natural', summary: 'Uma trilha para explorar textos, vocabulário e sinais linguísticos.', group: 'Trilhas' },

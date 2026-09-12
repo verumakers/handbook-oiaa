@@ -5,6 +5,7 @@ import { PageContents } from '@/components/editorial/page-contents';
 import { QuestionList } from '@/components/editorial/question-list';
 import { TradeoffTable } from '@/components/editorial/tradeoff-table';
 import { TrailBadge } from '@/components/editorial/trail-badge';
+import { TrailSwitcher } from '@/components/editorial/trail-switcher';
 import { findHandbookPage } from '@/lib/handbook-pages';
 import type { TrailContent } from '@/lib/trails-content';
 
@@ -14,6 +15,7 @@ export function TrailPage({ content }: { content: TrailContent }) {
   return <article className="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-24">
     <TrailBadge trail={content.trail} />
     <div className="mt-4"><PageHeader {...page} /></div>
+    <TrailSwitcher current={content.trail} />
     <PageContents items={[{ href: '#o-que-muda', label: 'O que muda' }, { href: '#seletores', label: 'Seletores' }, { href: '#tradeoffs', label: 'Trade-offs' }, { href: '#diagnosticos', label: 'Diagnóstico' }, { href: '#governanca', label: 'Governança' }, { href: '#relatorio', label: 'Relatório' }]} />
 
     <section className="mt-12" aria-labelledby="o-que-muda">
